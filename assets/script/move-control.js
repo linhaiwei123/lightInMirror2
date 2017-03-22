@@ -28,19 +28,19 @@ cc.Class({
 
     onKeyDown: function(e){
         switch(e.keyCode){
-            case cc.KEY.w: {this._up = true; break;}
-            case cc.KEY.s: {this._down = true; break;}
-            case cc.KEY.a: {this._left = true; break;}
-            case cc.KEY.d: {this._right = true; break;}
+            case cc.KEY.up: {this._up = true; break;}
+            case cc.KEY.down: {this._down = true; break;}
+            case cc.KEY.left: {this._left = true; break;}
+            case cc.KEY.right: {this._right = true; break;}
         }
     },
 
     onKeyUp: function(e){
         switch(e.keyCode){
-            case cc.KEY.w: {this._up = false; break;}
-            case cc.KEY.s: {this._down = false; break;}
-            case cc.KEY.a: {this._left = false; break;}
-            case cc.KEY.d: {this._right = false; break;}
+            case cc.KEY.up: {this._up = false; break;}
+            case cc.KEY.down: {this._down = false; break;}
+            case cc.KEY.left: {this._left = false; break;}
+            case cc.KEY.right: {this._right = false; break;}
         }
     },
 

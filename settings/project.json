@@ -3,16 +3,36 @@
     [
       false,
       true,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
       false
     ],
     [
       true,
       false,
-      true
-    ],
-    [
-      false,
       true,
+      false,
       false
     ]
   ],
@@ -24,7 +44,9 @@
   "group-list": [
     "player",
     "mirror",
-    "shadow-player"
+    "shadow-player",
+    "mirror-core",
+    "gate"
   ],
   "simulator-orientation": false,
   "simulator-resolution": {
